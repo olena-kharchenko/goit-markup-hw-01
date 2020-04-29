@@ -1,9 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Web Studio v.1</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <!--Шапка сайта-->
+    <header>
+      <nav>
+        <!--Если писать <a href="/"> выкидывает на диск С-->
+        <a href="index.html">Web Studio</a>
+
+        <ul>
+          <li><a href="">Студия</a></li>
+          <li><a href="">Портфолио</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="mailto:info@devstudio.com"
+              ><img
+                src="./images/mail-logo.svg"
+                alt="Отправить письмо"
+                width="16"
+              />info@devstudio.com</a
+            >
+          </li>
+
+          <li>
+            <a href="tel:+380961111111"
+              ><img
+                src="./images/phone-logo.svg"
+                alt="Позвонить"
+                width="10"
+              />+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Герой -->
+      <section>
+        <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <a href="">Заказать услугу</a>
+      </section>
+
+      <!-- Преимущества -->
+      <section>
+        <!-- h2 потом скрыть!!! -->
+        <h2>Преимущества</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/antenna-1.svg"
+              alt="Внимание к деталям"
+              width="70"
+            />
+            <a href=""
+              ><img src="./images/rectangle-1.svg" alt="Фон" width="278"
+            /></a>
+            <h3>Внимание к деталям</h3>
+
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li>
+            <img src="./images/clock-1.svg" alt="Пунктуальность" width="70" />
+            <a href=""
+              ><img src="./images/rectangle-2.svg" alt="Фон" width="278"
+            /></a>
+            <h3>Пунктуальность</h3>
+
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li>
+            <img src="./images/diagram-1.svg" alt="Планирование" width="70" />
+            <a href=""
+              ><img src="./images/rectangle-3.svg" alt="Фон" width="278"
+            /></a>
+            <h3>Планирование</h3>
+
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <img
+              src="./images/astronaut-1.svg"
+              alt="Современные технологии"
+              width="70"
+            />
+            <a href=""
+              ><img src="./images/rectangle-4.svg" alt="Фон" width="278"
+            /></a>
+            <h3>Современные технологии</h3>
+
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- Чем мы занимаемся -->
+      <section>
+        <h2>Чем мы занимаемся</h2>
+        <ul>
+          <li>
+            <a href=""
+              ><img
+                src="./images/desktop-applications.jpg"
+                alt="Десктопные приложения"
+                width="380"
+            /></a>
+            <h3>Десктопные приложения</h3>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="./images/mobile-applications.jpg"
+                alt="Мобильные приложения"
+                width="380"
+            /></a>
+            <h3>Мобильные приложения</h3>
+          </li>
+          <li>
+            <a href=""
+              ><img
+                src="./images/desiner-solutions.jpg"
+                alt="Дизайнерские решения"
+                width="380"
+            /></a>
+            <h3>Дизайнерские решения</h3>
+          </li>
+        </ul>
+      </section>
+      <!-- Наша команда -->
+      <section>
+        <h2>Наша команда</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/john-smith-photo.jpg"
+              alt="Джон Смит"
+              width="278"
+            />
+            <h3>John Smith</h3>
+            <p>Product Designer</p>
+            <a href=""
+              ><img
+                src="./images/instagram-logo.svg"
+                alt="Инстаграмм Джона Смита"
+                width="20"
+            /></a>
+            <a href=""
+              ><img
+                src="./images/twitter-logo.svg"
+                alt="Твиттер Джона Смита"
+                width="20"
+            /></a>
+            <a href=""
+              ><img
+                src="./images/facebook-logo.svg"
+                alt="Фейсбук Джона Смита"
+                width="20"
+            /></a>
+            <a href=""
+              ><img
+                src="./images/linkedin-logo.svg"
+                alt="Линкедин Джона Смита"
+                width="20"
+            /></a>
+          </li>
+          <li>
+            <img
+              src="./images/marta-stewart-photo.jpg"
+              alt="Марта Стюарт"
+              width="278"
+            />
+            <h3>Marta Stewart</h3>
+            <p>Frontend Developer</p>
+            <a href=""
+              ><img
+                src="./images/instagram-logo.svg"
+                alt="Инстаграмм Марты Стюарт"
+                width="20"
+            /></a>
+            <a href=""
+              ><img
+                src="./images/twitter-logo.svg"
+                alt="Твиттер Марты Стюарт"
+                width="20"
+            /></a>
+            <a href=""
+              ><img
+                src="./images/facebook-logo.svg"
+                alt="Фейсбук Марты Стюарт"
+                width="20"
+            /></a>
+            <a href=""
+              ><img
+                src="./images/linkedin-logo.svg"
+                alt="Линкедин Марты Стюарт"
+                width="20"
+            /></a>
+          </li>
+          <li>
+            <img
+              src="./images/robert-jakis-photo.jpg"
+              alt="Роберт Якис"
+              width="278"
+            />
+            <h3>Robert Jakis</h3>
+            <p>Marketing</p>
+            <a href=""
+              ><img
+                src="./images/instagram-logo.svg"
+                alt="Инстаграмм Роберта Якиса"
+                width="20"
+            /></a>
+            <a href=""
+              ><img
+                src="./images/twitter-logo.svg"
+                alt="Твиттер Роберта Якиса"
+                width="20"
+            /></a>
+            <a href=""
+              ><img
+                src="./images/facebook-logo.svg"
+                alt="Фейсбук Роберта Якиса"
+                width="20"
+            /></a>
+            <a href=""
+              ><img
+                src="./images/linkedin-logo.svg"
+                alt="Линкедин Роберта Якиса"
+                width="20"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
